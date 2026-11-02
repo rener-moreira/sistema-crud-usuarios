@@ -103,9 +103,6 @@ def atualizar_api(id, dados):
         
         campos.append(f"{campo}=%s")
         valores.append(valor)
-
-    if not campos:
-        raise ValueError("Nenhum campo atualizado")
     
     valores.append(id)
 
