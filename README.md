@@ -10,6 +10,7 @@ Ambas utilizam o mesmo banco PostgreSQL e permitem as operações CRUD:
 - **Read** — consultar usuários
 - **Update** — atualizar usuários
 - **Delete** — excluir usuários
+
 ## Tecnologias utilizadas
  
 - Python 3.10+
@@ -19,6 +20,7 @@ Ambas utilizam o mesmo banco PostgreSQL e permitem as operações CRUD:
 - PostgreSQL
 - Psycopg 3
 - python-dotenv
+
 ## Funcionalidades
  
 - Cadastro de usuários
@@ -29,6 +31,7 @@ Ambas utilizam o mesmo banco PostgreSQL e permitem as operações CRUD:
 - Pesquisa de usuários por cidade (interface gráfica)
 - Validação dos campos do formulário
 - Conexão com banco de dados PostgreSQL via variáveis de ambiente
+
 ## Estrutura do projeto
  
 ```text
@@ -147,4 +150,4 @@ A interface gráfica é organizada em seções:
 - **Buscar Usuários**
 - **Excluir Usuário**
 - **Alterar Usuário**
-- **Pesquisar por Cidade**
+- **Pesquisar por Cidade**   ->  *(Disponivel apenas na interface gráfica)*
